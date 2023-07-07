@@ -1,0 +1,45 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    position: relative;
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav li:hover > ul {
+    display: block;
+  }
+  
+  nav .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  nav .dropdown li {
+    width: 100%;
+  }
+  
+  nav .dropdown li a {
+    padding: 10px;
+    color: #333;
+    font-size: 90%;
+  }
+  
+  nav .dropdown li:hover a {
+    background-color: #f3f3f3;
+  }
